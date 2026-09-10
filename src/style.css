@@ -4,3 +4,5 @@
 
 .combine[data-label]::after{content:attr(data-label);}
 .combine[data-label]{font-size:0}.combine[data-label] svg{font-size:initial}.combine[data-label]::after{font-size:11px}
+
+.key-input{display:block;width:100
