@@ -16,6 +16,7 @@ const recipes:Record<string,Element>={
  'earth+fire':{id:'lava',name:'Lava',glyph:'⌁',color:'#f16b45',desc:'Erde im flüssigen Zustand.'},
  'air+water':{id:'cloud',name:'Wolke',glyph:'☁',color:'#a8d3df',desc:'Ein Träger des Regens.'},
  'aether+fire':{id:'light',name:'Licht',glyph:'✧',color:'#ffe58b',desc:'Ein Funke im Nichts.'},
+ 'aether+aether':{id:'life',name:'Leben',glyph:'♡',color:'#8fe58b',desc:'Der erste Puls in der unendlichen Welt.'},
 };
 const key=(a:string,b:string)=>[a,b].sort().join('+');
 const hash=(value:string)=>{let h=2166136261;for(let i=0;i<value.length;i++){h^=value.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0};
